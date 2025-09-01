@@ -8,8 +8,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: 'AIzaSyDd2BhTo2IgRHjG3PdAJIBZGUg01_S_xw0',
-      appId: '1:40398803417:android:6994048274a901cdd609c8',
+      apiKey: 'ApiKey',
+      appId: 'ApiId',
       messagingSenderId: '40398803417',
       projectId: 'notesapp-693db',
       storageBucket: 'notesapp-693db.firebasestorage.app',
